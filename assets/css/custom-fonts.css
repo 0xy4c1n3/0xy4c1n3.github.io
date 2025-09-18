@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body, html {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif !important;
+  font-size: 1em !important;
+}
+
+/* Apply Inter to text elements but NOT code elements */
+p:not(pre p), div:not(.highlight):not(.highlighter-rouge), 
+span:not(.highlight span):not(.highlighter-rouge span), 
+a:not(pre a), li:not(pre li), td:not(pre td), th:not(pre th), 
+label, input, textarea, select,
+h1, h2, h3, h4, h5, h6,
+.post-title, .page-title, .post-content:not(.highlight):not(.highlighter-rouge), .post-meta,
+.nav-link, .navbar-nav, .sidebar, .topbar, 
+.breadcrumb, blockquote, .alert {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif !important;
+}
+
+/* Explicitly reset code elements to use theme defaults */
+code, pre, 
+.highlight, .highlight *, 
+.highlighter-rouge, .highlighter-rouge *,
+[class*="language-"], [class*="language-"] *,
+.rouge-code, .rouge-gutter,
+kbd, samp, var, tt {
+  font-family: revert !important;
+}
+
+.fa, .fas, .far, .fal, .fab, [class*="fa-"] {
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro", "Font Awesome 6 Brands" !important;
+}
+h1 { font-size: 1.6rem !important; }
+h2 { font-size: 1.5rem !important; }
+h3 { font-size: 1.4rem !important; }
+h4 { font-size: 1.3rem !important; }
+h5 { font-size: 1.2rem !important; }
+h6 { font-size: 1.1rem !important; }
