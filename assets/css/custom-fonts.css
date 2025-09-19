@@ -12,26 +12,26 @@ h1, h2, h3, h4, h5, h6,
 .nav-link, .navbar-nav, .sidebar, .topbar, 
 .breadcrumb, blockquote, .alert {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif !important;
+  line-height: 1.8 !important;
 }
 
-code, pre,
-.highlight, .highlight *,
+/* Back to your original code styling */
+code, pre, 
+.highlight, .highlight *, 
 .highlighter-rouge, .highlighter-rouge *,
 [class*="language-"], [class*="language-"] *,
 .rouge-code, .rouge-gutter,
 kbd, samp, var, tt,
-p code, li code, td code, div code, span code,
-h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
+p code, li code, td code, div code, span code, h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
   font-family: 'Source Code Pro', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace !important;
-  font-weight: 500 !important; /* semi-bold (medium bold) */
+  font-weight: 500 !important;
   font-size: 15px !important;
-  line-height: 1;
+  line-height: 1.5 !important;
 }
-
-
 
 .fa, .fas, .far, .fal, .fab, [class*="fa-"] {
   font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro", "Font Awesome 6 Brands" !important;
+  font-weight: 900 !important; /* Ensure proper icon weight */
 }
 
 h1 { font-size: 1.5rem !important; }
