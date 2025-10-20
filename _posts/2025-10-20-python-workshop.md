@@ -1,10 +1,13 @@
 ---
-title: 'Python Tutorial'
-tags: ["Tutorials","workshops", "python","Shellmates"]
+layout: post
+title: "Python Tutorial"
+date: 2025-10-20 10:00:00 +0000
+tags: ["Tutorials","workshops","python","Shellmates"]
 categories: ["Tutorials","Python"]
 image:
-   path: https://github.com/0xy4c1n3/python-workshop-materials/blob/main/python.jpg?raw=true
+  path: https://github.com/0xy4c1n3/python-workshop-materials/blob/main/python.jpg?raw=true
 ---
+
 
 ----------
 
